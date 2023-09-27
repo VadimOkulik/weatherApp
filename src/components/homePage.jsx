@@ -16,9 +16,7 @@ export const HomePage = () => {
     return (
         <View style={styles.mainContainer}>
             <TextInput style={styles.input} placeholder="Enter City" value={query} onChange={(e) => setQuery(e.target.value)}/>
-            <Button onPress={search}>
-                <Text>Go</Text>
-            </Button>
+            <Button title="Go" onPress={search}/>
             {weather.main && (
                 <View style={styles.city}>
                     <Text style={styles.cityName}>

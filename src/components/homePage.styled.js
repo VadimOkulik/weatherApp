@@ -10,10 +10,7 @@ export const styles = StyleSheet.create({
     },
     input: {
     padding: '20px 7%',
-    borderRadius: '20px',
-    border: 'none',
     marginBottom: '5%',
-    background: 'rgba(250, 250, 250, 0.85)',
 },
     city: {
         flex: 1,
@@ -21,8 +18,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         flexDirection: 'column',
         padding: '40px 8%',
-        borderRadius: '20px',
-        background: "rgba(250, 250, 250, 0.85)",
+        backgroundColor: "red",
         boxShadow: '10px 10px 5px 0px rgba(15, 15, 15, 0.404)',
     },
     cityName: {
