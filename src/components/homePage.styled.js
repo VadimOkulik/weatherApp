@@ -8,21 +8,38 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         flexDirection: "column",
     },
+    search: {
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'space-around',
+        height: 'auto',
+    },
+    button: {
+        width: '30%',
+        backgroundColor: '#7f4faf',
+        textAlign: 'center',
+        borderRadius: 10,
+    },
     input: {
-    padding: '20px 7%',
-    marginBottom: '5%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 'auto',
+        textAlign: 'center',
+
 },
+
     city: {
-        flex: 1,
+        marginTop: '3%',
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        padding: '40px 8%',
-        backgroundColor: "red",
-        boxShadow: '10px 10px 5px 0px rgba(15, 15, 15, 0.404)',
     },
     cityName: {
         fontSize: '2em',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        marginTop: 50,
     },
     cityTemp: {
         fontSize: '5rem',
@@ -30,9 +47,9 @@ export const styles = StyleSheet.create({
         marginTop: '10px',
         color: '#1e2432',
         textAlign: 'center',
+        flexDirection: 'row',
 },
     info: {
-        flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
     },
@@ -40,6 +57,14 @@ export const styles = StyleSheet.create({
         marginTop: '10px',
         width: '100px',
         height: '100px',
+    },
+    error: {
+      marginTop: -100,
+    },
+    weekDays: {
+      flexDirection: 'row',
+      gap: 20,
+
     },
 
 
